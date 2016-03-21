@@ -1,0 +1,66 @@
+<!--<meta charset="utf-8" /> 
+<body style='line-height:0.7;' onload=alan()><pre id=b>
+
+    <script>
+//<!--
+//              
+//<body onload=b=!setInterval('for(a=b,b=h=[],i=3761;i--;h+="▁▉-"[i%92?b[i]=a?d==3|a[i]&d==2:24*i%7%2:2])for(d=0,j=5;e=(2<j--)*89+j;)d+=a[i+e]+a[i-e];s.innerHTML=h',99) id=s>
+//
+    
+//        
+//        function alabn(){
+//d = ["010"]
+//setInterval(function(){
+//    for(i=0,n="",c=d[d.length-1];i<c.length-2;)n+=[1,10,11,100].indexOf(c.substr(i++,3)*1)<0?0:1;
+//	l=n.length+2;
+//    d.push("00"+n+"00")
+//    for(i=0;i<d.length;i++)while(d[i].length<l)d[i]="0"+d[i]+"0"
+//	b.innerHTML=d.join("\n").replace("1","■").replace("0","□")
+//},100)
+//    }
+
+//
+//
+// d = display array
+
+Alan = true;
+        function aflan(){
+x=d=["010"]
+setInterval(function(){
+    if(Alan){
+    for(i=0,f=n="",c=d[d.length-1];i<c.length-2;)n+=(x=c.substr(i++,3)*1)==0?0:x>100?0:1 //construct 'n' as the new line
+    d.push("00"+n+"00")
+    for(i in d){
+        m=d[i];
+        while(m.length<n.length+2)m=0+m+0
+        for(j in m)f+="□■"[m[j]]
+        f+="\n"
+    }
+    b.innerHTML=f
+}},100)
+    }
+
+function alan(){
+x=d=["010"]; setInterval(function(){for(i=0,f=n="",c=d[d.length-1];i<c.length-2;)n+=(x=c.substr(i++,3)*1)==0?0:x>100?0:1;d.push("00"+n+"00")for(i in d){m=d[i];while(m.length<n.length+2)m=0+m+0;for(j in m)f+="□■"[m[j]];f+="\n"}b.innerHTML=f},100)}
+   </script>
+
+
+
+<!--
+<body style='line-height:.7'onload='
+d=1;
+              setInterval(function(){
+              c="00"+d+"00";
+              b.innerHTML+=c+"<br>";
+              d="";
+              for(i=0;i<c.length-2;i++)d+=(x=c.substr(i,3)*1)==0?0:x>100?0:1
+              },100)'><center><pre id=b>
+
+              
+<body onload=d=1;setInterval('m="";c="00"+d+"00";b.innerHTML+=c+"\\n";d="";for(i=0;i<c.length-2;i++)d+=(x=c.substr(i,3)*1)==0?0:x<101?1:0',100)><center><pre id=b>
+onload=d=1;setInterval('m="";c="00"+d+"00";b.innerHTML+=c+"\\n";d="";for(i=0;i<c.length-2;i++)d+=(x=c.substr(i,3)*1)==0?0:x<101?1:0',100)><center><pre id=b>
+-->
+
+
+<meta charset="utf-8" /> 
+<body style='line-height:.7'onload=d=1;setInterval('m="";c="00"+d+"00";b.innerHTML+=c.replace(/1/g,"■").replace(/0/g,"□")+"\\n";d="";for(i=0;i<c.length-2;i++)d+=(x=c.substr(i,3)*1)==0?0:x<101?1:0',100)><center><pre id=b>

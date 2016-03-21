@@ -1,0 +1,33 @@
+<body style='line-height:.7'onload='x=d=["010"];setInterval(function(){for(i=0,f=n="",c=d[d.length-1];i<c.length-2;)n+=(x=c.substr(i++,3)*1)==0?0:x>100?0:1;d.push("00"+n+"00");for(i in d){m=d[i];while(m.length<n.length+2)m=0+m+0;for(j in m)f+="□■"[m[j]];f+="\n"}b.innerHTML=f},100)'><center><pre id=b>
+
+<script>
+x=d=["010"];
+setInterval(function(){
+    for(i=0,f=n="",c=d[d.length-1];i<c.length-2;)n+=(x=c.substr(i++,3)*1)==0?0:x>100?0:1;
+    d.push("00"+n+"00");
+    for(i in d){
+        m=d[i];
+        while(m.length<n.length+2)m=0+m+0;
+        for(j in m)
+            f+="□■"[m[j]];
+        f+="\n"
+    }
+    b.innerHTML=f
+},100)
+</script>
+
+<script>
+x=d=["010"];
+setInterval(function(){
+    for(i=0,f=n="",c=d[d.length-1];i<c.length-2;)n+=(x=c.substr(i++,3)*1)==0?0:x>100?0:1;
+    d.push("00"+n+"00");
+    for(i=0; i< d.length; i++){
+        m=d[i];
+        while(m.length<n.length+2)m=0+m+0;
+        for(j in m)
+            f+="□■"[m[j]];
+        f+="\n"
+    }
+    b.innerHTML=f
+},100)
+</script>
